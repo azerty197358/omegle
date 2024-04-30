@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claim Reward</title>
+  <link rel="icon" type="image/png" href="https://imgur.com/LEj9eGb.jpg" sizes="26x76">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fc;
+      background-image: url('https://imgur.com/LEj9eGb.png');
+      text-align: center;
+      padding: 50px;
+    }   
+    .sidebar {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+    .sidebar a {
+      padding: 10px 15px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    .sidebar a:hover {
+      color: #f1f1f1;
+    }
+    .sidebar .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 30px;
+      margin-left: 50px;
+    }
+    .open-btn {
+      font-size: 20px;
+      cursor: pointer;
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      color: #fff;
+      z-index: 2;
+    }
+    .claim-text {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #f8f9fc;
+    }
+    .claim-icon {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 20px;
+    }
+    .ad-image {
+      width: 200px;
+      height: auto;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+      margin-bottom: 20px;
+    }
+    .ad-image:hover {
+      transform: scale(1.1);
+    }
+    .claim-button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-top: 20px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .claim-button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="open-btn" onclick="openSidebar()"><i class="fas fa-bars"></i></div>
+  <div class="sidebar" id="sidebar">
+    <a href="#">Dashboard</a>
+    <a href="#">Faucet</a>
+    <a href="#">Link Shortening</a>
+    <a href="#">Complete Offers</a>
+    <a href="#">withdrawa</a>
+    <a href="#">log out</a>
+
+
+    <a href="javascript:void(0)" class="close-btn" onclick="closeSidebar()">&times;</a>
+  </div>
+  
+  <div class="claim-text">Click on an ad to claim the reward of 100 satoshi</div>
+  <img src="https://imgur.com/cIWYZpY.jpg" alt="Claim Icon" class="claim-icon">
+  <img src="https://imgur.com/OmXFFPw.jpg" alt="Claim Icon" class="claim-icon">
+  <img src="https://imgur.com/ELKz6F4.jpg" alt="Claim Icon" class="claim-icon">
+  <img src="https://imgur.com/KArEAUk.jpg" alt="Claim Icon" class="claim-icon">
+  <br>
+  <div class="ad-image">
+    <iframe data-aa='2320071' src='//ad.a-ads.com/2320071?size=728x90' style='width:728px; height:90px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
+  </div>
+
+  <!-- Add the following ad code -->
+  <script type="text/javascript">
+    atOptions = {
+      'key' : '5b080fd5f63d2e9ead4b982183019159',
+      'format' : 'iframe',
+      'height' : 90,
+      'width' : 728,
+      'params' : {}
+    };
+  </script>
+  <script type="text/javascript" src="//www.topcreativeformat.com/5b080fd5f63d2e9ead4b982183019159/invoke.js"></script>
+  <iframe data-aa='2320071' src='//ad.a-ads.com/2320071?size=728x90' style='width:728px; height:90px; border:0px; padding:0; overflow:hidden; background-color: transparent;'></iframe>
+  <script>
+    function openSidebar() {
+      document.getElementById("sidebar").style.width = "250px";
+    }
+
+    function closeSidebar() {
+      document.getElementById("sidebar").style.width = "0";
+    }
+  </script>
+
+  <!-- End of ad code -->
+  <a href="https://getafilenow.com/1683139" class="claim-button">Claim</a>
+</body>
+</html>
